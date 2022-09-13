@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    image: PYsocks5im
+    container_name: PYsocks5
+    ports:
+      - "1080:1080"
+    expose: 
+      - "1080"
